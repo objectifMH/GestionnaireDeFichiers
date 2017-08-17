@@ -1,0 +1,122 @@
+body {
+			margin:0;
+			padding: 0;
+			background-color: purple;
+		}
+
+		body *{
+			box-sizing: border-box;
+			margin:0;
+			padding: 0;
+		}
+		header{
+			background-color: rebeccaPurple;
+			height: 110px;
+			line-height: 110px;
+			font-size: 40px;
+			color:white;
+		}
+		.logoHeader{
+			position: relative;
+			margin: 0px 40px;
+    		position: relative;
+    		border : 3px solid white ;
+    		background-color: purple;
+    		padding: 10px 7px;
+    		line-height: 50px;
+		}
+			.logoHeaderHt{
+			position: relative;
+			margin: 0px 40px;
+    		position: relative;
+    		border : 3px solid white ;
+    		background-color: purple;
+    		padding: 10px 7px;
+    		
+		}
+			/*.logoHeaderBs{
+			position: relative;
+			margin: 0px 40px;
+    		position: relative;
+    		border : 3px solid white ;
+    		background-color: purple;
+    		padding: 10px 7px;
+    		
+		}*/
+		form{
+		    position: relative;
+    		transform: translate(103%, 10%);
+
+    		border: 5px solid RebeccaPurple;
+    		//box-shadow: 8px 8px 12px #aaa;
+    		border-radius: 0 0 0 20px;
+    		padding: 12px;
+    		width: 33%;
+    		font-size: 19px;
+    		background-color: white;
+    		color: black;
+		}
+		input{
+			//padding: 1px 3px 1px;
+			margin: 10px 0px;
+			border-radius: 6px;
+			//height: 25px;
+			padding: 8px 6px;
+			border: 1px solid RebeccaPurple;
+			font-size: 15px;
+			width: 95%;
+		}
+
+		#valide{
+			position: relative;
+			   
+			background: linear-gradient(indigo, darkolive);
+    		background-color: RebeccaPurple ;
+    		box-shadow: inset 0 1px 1px RebeccaPurple;
+    		border-radius: 0 0 0 12px;
+    		
+			padding: 7px 20px;
+    		font-weight: bold !important;
+    		font-size: 17px;
+    		color: white;
+    		//bottom: 10px;
+    		//right: 10px;
+    		//transform: translate(340%, 17%);
+    		float:right;
+    		margin: 5px 20px 0px 0px;
+
+		}
+
+		#validation{
+			text-align: center;
+			font-weight: 900 !important;
+			padding: 7px 20px;
+			border-radius: 0 0 0 12px;
+			box-shadow: 8px 8px 12px #aaa;
+		}
+		
+		.container{
+			height: 100%;
+			width: 100%;
+		}
+
+		.ColorRed{
+			color:red;
+			border-color: red;
+		}
+
+		.ColorOlive{
+			color:olive;
+			border-color: olive;
+
+		}
+		.ColorPurple{
+			color:purple;
+			border-color: purple;
+			border:3px solid purple;
+
+		}
+
+		.prenomNom{
+			width: 47%;
+		}
